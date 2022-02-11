@@ -11,7 +11,7 @@ div.rightalign {
     text-align: right;
 }
 header.style {
-    padding: 20px;
+    padding-top: 20px;
     font-family: sans-serif; 
 }
 hr.header {
@@ -25,7 +25,7 @@ footer {
     font-size: 12pt;
     position: absolute;
     bottom: 0;
-    text-align: right;  
+    padding: 20px;
 }
 div.footersrc {
     text-decoration: underline;
@@ -38,4 +38,30 @@ body {
 }
 button {
     padding: 15px, 25px;
+}
+html.projects {
+    background:black;
+    color: white;
+}
+div.projects {
+    background-color: tomato;
+    font-family: Verdana;
+    padding: 9px; 
+}
+div.centerbox {
+    background-color: rgba(0, 0, 0, .73);
+    padding: 27px 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 300px;
+    transform: translate(-50%, -50%);
+}
+p.white {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+h1.white {
+    color: white;
 }
