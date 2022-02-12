@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(59deg, lightblue, pink);
+    background-image: linear-gradient(70deg, rgba(64, 224, 208, 0.61), rgba(255, 0, 0, 0.42))
 }
 div.button_header {
     display: inline-block;
@@ -10,16 +10,15 @@ div.button_header {
 div.rightalign {
     text-align: right;
 }
-header.style {
-    padding-top: 20px;
-    font-family: sans-serif; 
-}
 hr.header {
-height: 3px;
-background: black;
+    background: black;
+    height: 3px;
 }
 h1.left {
     text-align: left;
+}
+.top {
+    top: 0;
 }
 footer {
     font-size: 12pt;
@@ -36,20 +35,14 @@ a {
 body {
     font-family: Times New Roman;
 }
-button {
-    padding: 15px, 25px;
-}
-html.projects {
-    background:black;
-    color: white;
-}
 div.projects {
     background-color: tomato;
     font-family: Verdana;
     padding: 9px; 
+    border-radius: 25px;
 }
 div.centerbox {
-    background-color: rgba(0, 0, 0, .73);
+    background-color: rgba(202, 77, 19, 0.747);
     padding: 27px 60px;
     position: absolute;
     top: 50%;
@@ -63,5 +56,28 @@ p.white {
     font-size: large;
 }
 h1.white {
+    color: white;
+}
+.nav-menu {
+    float: right;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+.nav-menu li a:hover {
+    border: 1px solid, gray;
+    background-color: white;
+}
+.projectsheader {
     color: white;
 }
