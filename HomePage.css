@@ -1,0 +1,17 @@
+div.centerbox {
+    background-color: rgba(0, 0, 0, .73);
+    padding: 27px 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 300px;
+    transform: translate(-50%, -50%);
+}
+p.white {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+h1.white {
+    color: white;
+}

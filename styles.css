@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 html {
     background-image: linear-gradient(70deg, rgba(64, 224, 208, 0.61), rgba(255, 0, 0, 0.42))
 }
@@ -7,7 +11,7 @@ div.button_header {
     margin-right: 20px;
     
 }
-div.rightalign {
+.rightalign {
     text-align: right;
 }
 hr.header {
@@ -76,8 +80,12 @@ h1.white {
 }
 .nav-menu li a:hover {
     border: 1px solid, gray;
-    background-color: white;
+    background-color: lightgreen;
+    border-radius: 15px;
 }
 .projectsheader {
     color: white;
+}
+.headerspacing {
+    padding: 5px; 
 }
