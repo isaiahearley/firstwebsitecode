@@ -1,11 +1,7 @@
-div.centerbox {
-    background-color: rgba(0, 0, 0, .73);
-    padding: 27px 60px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border-radius: 300px;
-    transform: translate(-50%, -50%);
+html {
+    background-image: url("images/KHHomePage.jpeg");
+    background-size: cover;
+    filter: blur(0.2px)
 }
 p.white {
     text-align: center;
@@ -14,4 +10,8 @@ p.white {
 }
 h1.white {
     color: white;
+}
+p {
+    word-spacing: 4;
+    font-size: large;
 }

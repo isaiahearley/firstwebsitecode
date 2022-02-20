@@ -1,10 +1,19 @@
-html.projects {
-    background:black;
-    color: white;
+html {
+    background-image: url(images/KHHomePage.jpeg);
+    background-size: cover;
 }
 div.projects {
     background-color: tomato;
     font-family: Verdana;
-    padding: 9px; 
+    padding: 48.5px; 
+    border-radius: 25px;
+    font-family: Verdana;
 }
- 
+.gap {
+    background: black;
+    border-radius: 16px;
+    padding: 12px; 
+    display: grid;
+    gap: 12px;
+}
+

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-html {
+body {
     background-image: linear-gradient(70deg, rgba(64, 224, 208, 0.61), rgba(255, 0, 0, 0.42))
 }
 div.button_header {
@@ -29,6 +29,7 @@ footer {
     position: absolute;
     bottom: 0;
     padding: 20px;
+    margin-bottom: 0px;
 }
 div.footersrc {
     text-decoration: underline;
@@ -39,28 +40,16 @@ a {
 body {
     font-family: Times New Roman;
 }
-div.projects {
-    background-color: tomato;
-    font-family: Verdana;
-    padding: 9px; 
-    border-radius: 25px;
-}
 div.centerbox {
-    background-color: rgba(202, 77, 19, 0.747);
-    padding: 27px 60px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 50px 50px;
     position: absolute;
     top: 50%;
     left: 50%;
-    border-radius: 300px;
+    border-radius: 10px;
     transform: translate(-50%, -50%);
-}
-p.white {
-    text-align: center;
-    color: white;
-    font-size: large;
-}
-h1.white {
-    color: white;
 }
 .nav-menu {
     float: right;
@@ -73,15 +62,23 @@ h1.white {
 }
 
 .nav-menu li a {
-    color: black;
-    text-decoration: none;
+    background-image:linear-gradient(lightgreen, lightgreen);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: top; 
     padding: 5px 20px;
     font-size: 20px;
+    border-radius: 15px;
+    color: black;
+    text-decoration: none;
+
+    transition: background-size 150ms;
 }
 .nav-menu li a:hover {
-    border: 1px solid, gray;
-    background-color: lightgreen;
-    border-radius: 15px;
+   background-size: 100% 100%;
+   background-position-x: bottom;
+   color: black;
+  
 }
 .projectsheader {
     color: white;
