@@ -16,4 +16,12 @@ div.projects {
     display: grid;
     gap: 12px;
 }
+.flex {
+    height: 65px; 
+    width: 65px; 
+    float: right;
+    
+}
+.flex:hover {
 
+}

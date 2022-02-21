@@ -1,3 +1,8 @@
+html {
+    background-image: url("images/KHHomePage.jpeg");
+    background-size: cover;
+    filter: blur(0.2px)
+}
 .socials {
     height: 45px;
     width: 45px; 
@@ -10,4 +15,7 @@
 hr {
     height: 2px;
     background: black;
+}
+.nodecor {
+    background-color: none;
 }

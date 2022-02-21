@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body {
+.bg {
     background-image: linear-gradient(70deg, rgba(64, 224, 208, 0.61), rgba(255, 0, 0, 0.42))
 }
 div.button_header {
